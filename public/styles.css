@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: rgb(33, 145, 215);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+textarea {
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.484);
+    border-radius: 20px;
+    width: 300px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(33, 145, 215);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+h2 {
+    color: rgb(33, 145, 215);
+}
+
+.translation {
+    margin: 20px auto;
+    max-width: 800px;
+    border: 1px solid rgba(0, 0, 0, 0.484);
+    padding: 10px;
+}
+
+.error {
+    color: yellow;
+    margin: 10px 0;
+}
